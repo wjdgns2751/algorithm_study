@@ -1,4 +1,4 @@
-class Solution {
+class pro_1_PeUniform {
     // 프로그래머스
     // 체육복 문제 (greddy)
     public int solution(int n, int[] lost, int[] reserve) {
