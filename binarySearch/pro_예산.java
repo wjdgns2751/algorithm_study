@@ -1,9 +1,9 @@
-package 그리디_정렬_이분탐색_시뮬레이션;
+package binarySearch;
 
 /**
  * pro3_1_예산
  */
-public class pro3_1_예산 {
+public class pro_예산 {
 
     static int solution(int[] budgets, int M) {
         int answer = 0;

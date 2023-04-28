@@ -1,4 +1,6 @@
-class pro_1_PeUniform {
+package greedy;
+
+class pro_유니폼 {
     // 프로그래머스
     // 체육복 문제 (greddy)
     public int solution(int n, int[] lost, int[] reserve) {

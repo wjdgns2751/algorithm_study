@@ -1,10 +1,10 @@
-package 완전탐색;
+package bruteForce;
 
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-class pro_1_minSquare {
+class pro_모의고사 {
 
     public int[] solution(int[] answers) {
 

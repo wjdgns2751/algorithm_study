@@ -1,4 +1,6 @@
-class pro_2_JoyStick {
+package greedy;
+
+class pro_조이스틱 {
 
     /*
      * 조이스틱으로 알파벳 이름을 완성하세요. 맨 처음엔 A로만 이루어져 있습니다.

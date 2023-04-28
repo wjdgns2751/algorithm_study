@@ -1,4 +1,4 @@
-package 내일배움코스;
+package sort;
 
 public class pro_마법의엘리베이터 {
     public static int solution(int storey) {
@@ -51,29 +51,6 @@ public class pro_마법의엘리베이터 {
 
         return answer;
         // return elevator(storey);
-    }
-
-    private static int elevator(int floor) {
-        if (floor <= 1)
-            return floor; // 0보다 낮아질 경우
-
-        int remainder = floor % 10; // 10으로 나눈 나머지 값
-        int divide = floor / 10; // 10으로 나눈 몫
-
-        int count1 = remainder + elevator(divide); //
-        int count2 = (10 - remainder) + elevator(divide + 1);
-
-        /**
-         * ex) 16 +
-         * 
-         * reminder divide count1 count2
-         * 6 1 7
-         * 2 0 2 9
-         * 6
-         * -----------------------------
-         * 6 1 | 7 > 6 == 6
-         */
-        return Math.min(count1, count2);
     }
 
     public static void main(String[] args) {

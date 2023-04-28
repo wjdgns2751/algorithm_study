@@ -1,4 +1,4 @@
-package 완전탐색;
+package bruteForce;
 
 import java.lang.Math;
 /*
@@ -29,7 +29,7 @@ import java.lang.Math;
  
  */
 
-class pro_1_minSquare {
+class pro_최소직사각형 {
     public int solution(int[][] sizes) {
         int minValue = 0, maxValue = 0;
         for (int[] card : sizes) {
