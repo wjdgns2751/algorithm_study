@@ -1,39 +1,54 @@
 package dfsBfs;
 
+import java.util.stream.*;
+import java.util.*;
+
 public class pro_단어변환 {
-    static boolean[] visited;
-    static int answer = 0;
+    static boolean isVisited[];
+    static int answer = 999999;
 
-    public int solution(String begin, String target, String[] words) {
-        visited = new boolean[words.length];
+    public static int solution(String begin, String target, String[] words) {
+        for (int i = 0; i < words.length; i++) {
+            if (compare(begin, words[i]) <= 1) {
+                isVisited = new boolean[words.length];
+                isVisited[i] = true;
+                dfs(1, i, target, words);
+            }
+        }
 
-        dfs(begin, target, words, 0);
-        return answer;
+        return answer == 999999 ? 0 : answer;
     }
 
-    public static void dfs(String begin, String target, String[] words, int cnt) {
-        if (begin.equals(target)) {
-            answer = cnt;
+    static void dfs(int cnt, int cur, String target, String[] words) {
+        if (target.equals(words[cur])) {
+            answer = Math.min(cnt, answer);
             return;
         }
 
         for (int i = 0; i < words.length; i++) {
-            if (visited[i]) {
-                continue;
-            }
-
-            int k = 0; // 같은 스펠링 몇개인지 세기
-            for (int j = 0; j < begin.length(); j++) {
-                if (begin.charAt(j) == words[i].charAt(j)) {
-                    k++;
-                }
-            }
-
-            if (k == begin.length() - 1) { // 한글자 빼고 모두 같은 경우
-                visited[i] = true;
-                dfs(words[i], target, words, cnt + 1);
-                visited[i] = false;
+            if (!isVisited[i] && compare(words[cur], words[i]) == 1) {
+                isVisited[i] = true;
+                dfs(cnt + 1, i, target, words);
+                isVisited[i] = false;
             }
         }
     }
+
+    static int compare(String s1, String s2) {
+        int n = 0;
+        for (int i = 0; i < s1.length(); i++)
+            if (s1.charAt(i) != s2.charAt(i))
+                n++;
+
+        return n;
+
+    }
+
+    public static void main(String[] args) {
+        String begin = "hit";
+        String target = "cog";
+        String[] words = { "hot", "dot", "dog", "lot", "log", "cog" };
+        System.out.println(solution(begin, target, words));
+    }
+
 }
