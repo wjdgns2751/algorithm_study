@@ -1,0 +1,33 @@
+package hash;
+
+import java.util.*;
+import java.util.Iterator.*;
+
+public class pro_위장 {
+    public static int solution(String[][] clothes) {
+        // 1. 옷을 종류별로 구별
+        HashMap<String, Integer> map = new HashMap<>();
+
+        for (String[] cloth : clothes) {
+            String type = cloth[1];
+            map.put(type, map.getOrDefault(type, 0) + 1);
+        }
+
+        // 2. 입지 않는경우
+        Iterator<Integer> iter = map.values().iterator();
+        int answer = 1;
+
+        while (iter.hasNext())
+            answer *= iter.next().intValue() + 1;
+
+        // 3. 아무것도 입지 않을 경우
+        return answer - 1;
+    }
+
+    public static void main(String[] args) {
+        String[][] clothes = { { "yellow_hat", "headgear" }, { "blue_sunglasses", "eyewear" },
+                { "green_turban", "headgear" } };
+
+        System.out.println(solution(clothes));
+    }
+}
