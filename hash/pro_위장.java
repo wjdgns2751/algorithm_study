@@ -2,6 +2,7 @@ package hash;
 
 import java.util.*;
 import java.util.Iterator.*;
+import java.util.stream.*;
 
 public class pro_위장 {
     public static int solution(String[][] clothes) {
@@ -22,6 +23,15 @@ public class pro_위장 {
 
         // 3. 아무것도 입지 않을 경우
         return answer - 1;
+    }
+
+    public static int solution2(String[][] clothes) {
+        return Arrays.stream(clothes)
+                .map(c -> c[1])
+                .distinct()
+                .map(type -> (int) Arrays.stream(clothes).filter(c -> c[1].equals(type)).count())
+                .map(c -> c + 1)
+                .reduce(1, (c, n) -> c * n) - 1;
     }
 
     public static void main(String[] args) {
