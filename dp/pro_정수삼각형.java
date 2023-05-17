@@ -22,7 +22,7 @@ class pro_정수삼각형 {
 
                 answer = Math.max(triangle[floor][num], answer);
             }
-            System.out.println(floor + " floor : " + answer);
+            // System.out.println(floor + " floor : " + answer);
         }
 
         return answer;
