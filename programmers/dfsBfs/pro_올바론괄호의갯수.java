@@ -1,4 +1,4 @@
-package dfsBfs;
+package programmers.dfsBfs;
 
 public class pro_올바론괄호의갯수 {
     int count = 0;

@@ -1,4 +1,4 @@
-package greedy;
+package programmers.greedy;
 
 class pro_유니폼 {
     // 프로그래머스

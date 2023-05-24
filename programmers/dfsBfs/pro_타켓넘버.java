@@ -1,4 +1,4 @@
-package dfsBfs;
+package programmers.dfsBfs;
 
 public class pro_타켓넘버 {
     int[] numbers;

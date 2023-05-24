@@ -1,4 +1,4 @@
-package sort;
+package programmers.sort;
 
 public class pro_마법의엘리베이터 {
     public static int solution(int storey) {

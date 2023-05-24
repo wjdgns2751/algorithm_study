@@ -1,4 +1,4 @@
-package binarySearch;
+package programmers.binarySearch;
 
 /**
  * pro3_1_예산

@@ -1,4 +1,4 @@
-package dfsBfs;
+package programmers.dfsBfs;
 
 import java.util.stream.*;
 import java.util.*;

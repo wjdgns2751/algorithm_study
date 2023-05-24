@@ -1,4 +1,4 @@
-package greedy;
+package programmers.greedy;
 
 public class pro_기지국설치 {
     public int solution(int n, int[] stations, int w) {

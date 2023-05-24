@@ -1,4 +1,4 @@
-package dfsBfs;
+package programmers.dfsBfs;
 
 public class pro_네트워크 {
     public int solution(int n, int[][] computers) {

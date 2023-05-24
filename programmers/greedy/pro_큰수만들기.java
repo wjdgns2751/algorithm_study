@@ -1,4 +1,4 @@
-package greedy;
+package programmers.greedy;
 
 import java.util.Stack;
 
@@ -12,14 +12,14 @@ public class pro_큰수만들기 {
         // 4177258(41) 41772528[4] 1 77584
         // 41772584(1) 417725841 775841
         String answer = "";
-        char [] result = new char[number.length() - k];
-        //문자열 number의 길이에서 제거해야될 문자 갯수를 뺀 만큼의 char 타입의 result 리스트 생성
+        char[] result = new char[number.length() - k];
+        // 문자열 number의 길이에서 제거해야될 문자 갯수를 뺀 만큼의 char 타입의 result 리스트 생성
         Stack<Character> stack = new Stack<>();
 
-        for(int i = 0 ; i < number.length(); i++){
+        for (int i = 0; i < number.length(); i++) {
             char c = number.charAt(i);
-            while(!stack.isEmpty() && stack.peek() < c && k > 0){
-                //스택이 비어있지 않을때 스택의 첫번째 값과 첫번째 문자를 
+            while (!stack.isEmpty() && stack.peek() < c && k > 0) {
+                // 스택이 비어있지 않을때 스택의 첫번째 값과 첫번째 문자를
             }
         }
 

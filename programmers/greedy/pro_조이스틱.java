@@ -1,4 +1,4 @@
-package greedy;
+package programmers.greedy;
 
 class pro_조이스틱 {
 

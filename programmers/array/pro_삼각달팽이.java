@@ -1,4 +1,4 @@
-package array;
+package programmers.array;
 
 public class pro_삼각달팽이 {
     private static final int[] dx = { 0, 1, -1 };

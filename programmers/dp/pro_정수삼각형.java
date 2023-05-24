@@ -1,4 +1,4 @@
-package dp;
+package programmers.dp;
 
 class pro_정수삼각형 {
 

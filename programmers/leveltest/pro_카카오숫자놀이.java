@@ -1,4 +1,4 @@
-package leveltest;
+package programmers.leveltest;
 
 import java.util.*;
 

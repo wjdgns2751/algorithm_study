@@ -1,4 +1,4 @@
-package leveltest;
+package programmers.leveltest;
 
 public class pro_평균값 {
     public static double solution(int[] arr) {
