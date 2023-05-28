@@ -5,8 +5,6 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-import javafx.scene.paint.Stop;
-
 public class baek_10869 {
     // 사칙연산
     public static void main(String[] args) throws IOException {

@@ -22,7 +22,7 @@ public class baek_25206 {
         for (int i = 0; i < 20; i++) {
             String str = br.readLine();
             StringTokenizer st = new StringTokenizer(str, " ");
-            String name = st.nextToken();
+            st.nextToken();
             double point = Double.parseDouble(st.nextToken());
             String grade = st.nextToken();
             if (!grade.equals("P")) {

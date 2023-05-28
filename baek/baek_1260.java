@@ -34,5 +34,6 @@ public class baek_1260 {
         }
 
         dfs(v);
+        sc.close();
     }
 }

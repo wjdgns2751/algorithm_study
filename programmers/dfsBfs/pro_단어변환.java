@@ -1,8 +1,5 @@
 package programmers.dfsBfs;
 
-import java.util.stream.*;
-import java.util.*;
-
 public class pro_단어변환 {
     static boolean isVisited[];
     static int answer = 999999;

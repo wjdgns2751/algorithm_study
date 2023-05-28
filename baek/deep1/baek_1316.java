@@ -32,6 +32,7 @@ public class baek_1316 {
             }
         }
 
+        scanner.close();
         System.out.println(count);
     }
 }

@@ -1,8 +1,6 @@
 package programmers.hash;
 
 import java.util.*;
-import java.util.Iterator.*;
-import java.util.stream.*;
 
 public class pro_위장 {
     public static int solution(String[][] clothes) {
