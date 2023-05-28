@@ -8,5 +8,6 @@ public class baek_27323 {
         int A = sc.nextInt();
         int B = sc.nextInt();
         System.out.println(A * B);
+        sc.close();
     }
 }
