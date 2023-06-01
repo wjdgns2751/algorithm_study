@@ -16,7 +16,6 @@ public class baek_14215 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         Stream<String> angle = Arrays.stream(br.readLine().split(" "));
         int[] input = angle.mapToInt(Integer::parseInt).sorted().toArray();
 
