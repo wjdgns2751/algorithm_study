@@ -20,7 +20,13 @@ public class baek_2798 {
         }
 
         for (int i = 0; i < N - 2; i++) {
+            if (arr[i] > M)
+                continue;
+
             for (int j = i + 1; j < N - 1; j++) {
+                if (arr[i] + arr[j] > M)
+                    continue;
+
                 for (int k = j + 1; k < N; k++) {
                     int tempValue = arr[i] + arr[j] + arr[k];
 
