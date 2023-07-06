@@ -1,0 +1,749 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "baek_10807",
+            "request": "launch",
+            "mainClass": "baek.array.baek_10807",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10810",
+            "request": "launch",
+            "mainClass": "baek.array.baek_10810",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10811",
+            "request": "launch",
+            "mainClass": "baek.array.baek_10811",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10813",
+            "request": "launch",
+            "mainClass": "baek.array.baek_10813",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_5597",
+            "request": "launch",
+            "mainClass": "baek.array.baek_5597",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1260",
+            "request": "launch",
+            "mainClass": "baek.baek_1260",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1018",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_1018",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1436",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_1436",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_19532",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_19532",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2231",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_2231",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2798",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_2798",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2839",
+            "request": "launch",
+            "mainClass": "baek.bruteForce.baek_2839",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10988",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_10988",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1157",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_1157",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1316",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_1316",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2444",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_2444",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_25083",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_25083",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_25206",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_25206",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2941",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_2941",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_3003",
+            "request": "launch",
+            "mainClass": "baek.deep1.baek_3003",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11653",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_11653",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1978",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_1978",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2501",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_2501",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2581",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_2581",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_5086",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_5086",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_9506",
+            "request": "launch",
+            "mainClass": "baek.divisor_multiple_prime.baek_9506",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10798",
+            "request": "launch",
+            "mainClass": "baek.doubleArray.baek_10798",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2563",
+            "request": "launch",
+            "mainClass": "baek.doubleArray.baek_2563",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2566",
+            "request": "launch",
+            "mainClass": "baek.doubleArray.baek_2566",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2738",
+            "request": "launch",
+            "mainClass": "baek.doubleArray.baek_2738",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10757",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_10757",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11005",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_11005",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1193",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_1193",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2292",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_2292",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2720",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_2720",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2745",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_2745",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2869",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_2869",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2903",
+            "request": "launch",
+            "mainClass": "baek.gmath.baek_2903",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1008",
+            "request": "launch",
+            "mainClass": "baek.io.baek_1008",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10430",
+            "request": "launch",
+            "mainClass": "baek.io.baek_10430",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10869",
+            "request": "launch",
+            "mainClass": "baek.io.baek_10869",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10926",
+            "request": "launch",
+            "mainClass": "baek.io.baek_10926",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11382",
+            "request": "launch",
+            "mainClass": "baek.io.baek_11382",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_18108",
+            "request": "launch",
+            "mainClass": "baek.io.baek_18108",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2588",
+            "request": "launch",
+            "mainClass": "baek.io.baek_2588",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_25304",
+            "request": "launch",
+            "mainClass": "baek.loof.baek_25304",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_25314",
+            "request": "launch",
+            "mainClass": "baek.loof.baek_25314",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10101",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_10101",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1085",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_1085",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_14215",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_14215",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_15894",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_15894",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_27323",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_27323",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_3009",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_3009",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_5073",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_5073",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_9063",
+            "request": "launch",
+            "mainClass": "baek.rectangle_triangle.baek_9063",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10815",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_10815",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10816",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_10816",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11478",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_11478",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1269",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_1269",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_14425",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_14425",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1620",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_1620",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1764",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_1764",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_7785",
+            "request": "launch",
+            "mainClass": "baek.setsAndMaps.baek_7785",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10814",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_10814",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10989",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_10989",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11650",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_11650",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_11651",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_11651",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1181",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_1181",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1427",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_1427",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_18870",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_18870",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_25305",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_25305",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2587",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_2587",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2750",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_2750",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2751",
+            "request": "launch",
+            "mainClass": "baek.sort.baek_2751",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_10809",
+            "request": "launch",
+            "mainClass": "baek.string.baek_10809",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_1152",
+            "request": "launch",
+            "mainClass": "baek.string.baek_1152",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2675",
+            "request": "launch",
+            "mainClass": "baek.string.baek_2675",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2743",
+            "request": "launch",
+            "mainClass": "baek.string.baek_2743",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_27866",
+            "request": "launch",
+            "mainClass": "baek.string.baek_27866",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_2908",
+            "request": "launch",
+            "mainClass": "baek.string.baek_2908",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_5622",
+            "request": "launch",
+            "mainClass": "baek.string.baek_5622",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_9086",
+            "request": "launch",
+            "mainClass": "baek.string.baek_9086",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24262",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24262",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24263",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24263",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24264",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24264",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24265",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24265",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24266",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24266",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24267",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24267",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "baek_24313",
+            "request": "launch",
+            "mainClass": "baek.time_complexity.baek_24313",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_교점에별만들기",
+            "request": "launch",
+            "mainClass": "programmers.array.pro_교점에별만들기",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_예산",
+            "request": "launch",
+            "mainClass": "programmers.binarySearch.pro_예산",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_게임맵최단거리",
+            "request": "launch",
+            "mainClass": "programmers.dfsBfs.pro_게임맵최단거리",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_게임맵최단거리2",
+            "request": "launch",
+            "mainClass": "programmers.dfsBfs.pro_게임맵최단거리2",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_단어변환",
+            "request": "launch",
+            "mainClass": "programmers.dfsBfs.pro_단어변환",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_타켓넘버",
+            "request": "launch",
+            "mainClass": "programmers.dfsBfs.pro_타켓넘버",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_N으로표현",
+            "request": "launch",
+            "mainClass": "programmers.dp.pro_N으로표현",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_정수삼각형",
+            "request": "launch",
+            "mainClass": "programmers.dp.pro_정수삼각형",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_조이스틱",
+            "request": "launch",
+            "mainClass": "programmers.greedy.pro_조이스틱",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_큰수만들기",
+            "request": "launch",
+            "mainClass": "programmers.greedy.pro_큰수만들기",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_방울",
+            "request": "launch",
+            "mainClass": "programmers.hash.pro_방울",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_위장",
+            "request": "launch",
+            "mainClass": "programmers.hash.pro_위장",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_숫자게임",
+            "request": "launch",
+            "mainClass": "programmers.implementation.pro_숫자게임",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_카카오숫자놀이",
+            "request": "launch",
+            "mainClass": "programmers.leveltest.pro_카카오숫자놀이",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_평균값",
+            "request": "launch",
+            "mainClass": "programmers.leveltest.pro_평균값",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
+            "name": "pro_마법의엘리베이터",
+            "request": "launch",
+            "mainClass": "programmers.sort.pro_마법의엘리베이터",
+            "projectName": "algorithm_study_a82f9757"
+        }
+    ]
+}
