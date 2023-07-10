@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "baek_2485",
+            "request": "launch",
+            "mainClass": "baek.dmp.baek_2485",
+            "projectName": "algorithm_study_a82f9757"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
