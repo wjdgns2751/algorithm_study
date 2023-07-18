@@ -35,7 +35,7 @@ public class baek_2485 {
         if (b == 0)
             return a;
         else
-            return getGCD(b, a % b); // 최대공약수 계산을 위해 유클리드 호제법 사용
+            return getGCD(b, a % b); // 최대공약수 계산을 위해 유클리드 호제법 사용 dd
 
     }
 }
